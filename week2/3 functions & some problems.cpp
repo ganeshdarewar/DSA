@@ -200,26 +200,63 @@
 //   cin>>n;
 //   getOddEven(n);
 //   return 0;
-// }
+// bxc
 
+
+// check given number is prime 
 
 // #include <iostream>
 // using namespace std;
-
-// int getFactorial(int n){
-//   int fact=1;
-//   int c=n;
-//   for(int i=0; i<n; i++){
-//     fact=fact*c;
-//     c--;
+// #include <cmath>
+// bool checkPrime(int n){
+//   if(n>0){
+//       for(int i=2; i<sqrt(n);i++){
+//     if(n%i==0){
+//       return false;
+//     }
 //   }
-//   return fact;
+//   return true;
+//   }
+//   return false;
 // }
 // int main(){
 //   int n;
-//   cout<<"enter n ";
 //   cin>>n;
-//   int fact=getFactorial(n);
-//   cout<<"factorail :"<<fact;
+//   bool isPrime=checkPrime(n);
+//   if(isPrime){
+//     cout<<"prime";
+//   }
+//   else{
+//     cout<<"not prime";
+//   }
 //   return 0;
 // }
+
+
+// print all prime 1 to N
+// #include <iostream>
+// using namespace std;
+// #include <cmath>
+
+// bool checkPrime(int n){
+//   for(int i=2; i<=sqrt(n); i++){
+//     if(n%i==0){
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// int main(){
+//   int n;
+//   cin>>n;
+//   for(int i=2; i<n; i++){
+//     bool isPrime=checkPrime(i);
+//     if(isPrime){
+//       cout<<i<<endl;
+//     }
+//   }
+  
+//   return 0;
+// }
+
+
