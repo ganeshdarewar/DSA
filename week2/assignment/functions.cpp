@@ -119,3 +119,24 @@
 //     cout<<"Fahrenheit  "<<f<<endl;
 //   return 0;
 // }
+
+
+// https://www.geeksforgeeks.org/problems/greatest-of-three-numbers2520/1?page=4&difficulty=School&sortBy=submissions
+// class Solution {
+//   public:
+//     int greatestOfThree(int A, int B, int C) {
+//         // code here
+//         if(A>B && A>C){
+//             return A;
+//         }
+//         else if(B>C){
+//             return B;
+//         }
+//         else{
+//             return C;
+//         }
+//         //  return max(A, max(B, C));
+//     }
+// };
+
+
