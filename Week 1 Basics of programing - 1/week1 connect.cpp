@@ -1,17 +1,17 @@
 // typecasting 
 
 // Online C++ compiler to run C++ program online
-#include <iostream>
-using namespace std;
-int main() {
-    int a=10;
-    char b='d';
-    int sum =a+b;// d= ascii=97
-    cout<<sum;//107
-    float f=2.1+sum;
-    cout<<f;//107+2.1=109.1
-    return 0;
-}
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int a=10;
+//     char b='d';
+//     int sum =a+b;// d= ascii=97
+//     cout<<sum;//107
+//     float f=2.1+sum;
+//     cout<<f;//107+2.1=109.1
+//     return 0;
+// }
 
 // Online C++ compiler to run C++ program online
 #include <iostream>
